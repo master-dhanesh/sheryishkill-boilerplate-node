@@ -1,0 +1,18 @@
+.c-card{
+    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 30% !important;
+    margin: 0 20px 20px 0;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.courses-body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

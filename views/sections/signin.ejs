@@ -1,0 +1,27 @@
+<%- include('../partials/navigation.ejs')%>
+
+<link rel="stylesheet" href="/stylesheets/sign.css">
+
+<div class="sign-width">
+    <h3 class="text-center theme-color-dark font-weight-bold">Sign in to your Sheryishkill account</h3>
+    <br>
+   <form class="container w-75">
+    <button type="button"  class="reg-button d-flex btn btn-block">
+      <img height="20" src="https://cdn.aircomechanical.com/wp-content/uploads/2018/12/google-review-button.png" alt="">
+      <span>Sign Up with Google</span>
+    </button>
+       <div class="break"> <hr> or <hr></div>
+     <div class="form-group">
+       <input type="email" class="form-control" id="exampleInputUsername" aria-describedby="usernameHelp" placeholder="John Doe">
+     </div>
+     <div class="form-group">
+       <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+     </div>
+     <a href="">Forgot Password?</a>  <br><br>
+     <Button type="submit" class="px20 btn btn-block theme-bgcolor text-dark font-weight-bold" data-toggle="modal" data-target="#modalRegisterForm">Sign In</Button>
+   </form>
+   <br>
+   <p class="text-center">Not a member yet? <a href="">Sign Up</a>.</p>
+  </div>
+
+<%- include('../partials/footer.ejs')%>

@@ -1,0 +1,111 @@
+<%- include('../partials/navigation.ejs')%>
+
+<link rel="stylesheet" href="/stylesheets/editprofile.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container bootstrap snippets">
+<div class="row">
+  <div class="mx-auto col-xs-12 col-sm-9">
+    <br>
+  <h1 class="theme-color-dark">Edit user details...</h1>
+    <form class="form-horizontal">
+        <div class="panel panel-default">
+          <div class="card">
+            <div class="card-body">
+              <div class="e-profile">
+                <div class="row">
+                  <div class="col-12 col-sm-auto mb-3">
+                    <div class="mx-auto" style="width: 140px;">
+                      <div class="d-flex justify-content-center align-items-center rounded"
+                        style="height: 140px; background-color: rgb(233, 236, 239);">
+                        <img height="140" style="border-radius: 5px;" src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col d-flex flex-column flex-sm-row justify-content-between mb-3">
+                    <div class="text-center text-sm-left mb-2 mb-sm-0">
+                      <h4 class="pt-sm-2 pb-1 mb-0 text-nowrap">John Smith</h4>
+                      <p class="mb-0">@johnny.s</p>
+                      <br>
+                      <div class="mt-2">
+                        <button class="btn theme-bgcolor text-white" type="button">
+                          <i class="fa fa-fw fa-camera"></i>
+                          <span>Change Photo</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="text-center text-sm-right">
+                      <span class="badge badge-secondary">administrator</span>
+                      <div class="text-muted"><small>Joined 09 Dec 2017</small></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+        <h4 class="panel-title">Profile details...</h4>
+        </div>
+        <div class="panel-body">
+          <div class="form-group">
+            <div class="col-sm-10">
+              <input title="username" type="text" class="form-control" placeholder="john_doe_">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-10">
+              <input title="full name"  type="text" class="form-control" placeholder="John Doe">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-10">
+              <input title="email"  type="email" class="form-control" placeholder="john.doe@johndoe.jd">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-10">
+              <input title="enter breif location"  type="text" class="form-control" placeholder="Address">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-10">
+              <input type="tel" title="phone number"  class="form-control" placeholder="+91 123 234 4568">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-10">
+              <textarea title="your bio..." rows="3" class="form-control">about you..</textarea>
+            </div>
+          </div>
+          <din class="form-group">
+            <div class="col-sm-10">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" value="male">
+                <label class="form-check-label" for="inlineRadio1">male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" value="female">
+                <label class="form-check-label" for="inlineRadio2">female</label>
+              </div>
+            </div>
+          </din>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+              <button type="submit" class="btn theme-bgcolor text-white">Submit</button>
+              <button type="reset" class="btn btn-default">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+
+<%- include('../partials/footer.ejs')%>
